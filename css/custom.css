@@ -1,0 +1,42 @@
+body {
+    background-color: #333;
+}
+
+a:link, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #bbb;
+    text-decoration: none;
+}
+
+a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+#link-icons {
+    list-style-type: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+}
+
+#link-icons li {
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+#link-icons .fa, .ai {
+    transform: translateY(14%);
+    display: inline-block;
+    margin-right: 0.2em;
+}
+
+#link-icons li:first-child .fa {
+    margin-left: 0;
+}
