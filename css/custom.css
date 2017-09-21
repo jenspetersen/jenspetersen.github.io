@@ -19,7 +19,7 @@ a:active {
     text-decoration: none;
 }
 
-#link-icons-container {
+#link-list-container {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -28,32 +28,28 @@ a:active {
     text-align: center;
 }
 
-#link-icons-container img {
+#link-list-container img {
     margin-bottom: 5em;
 }
 
-#link-icons {
+#link-list {
     list-style-type: none;
     padding: 0;
     text-align: left;
-    margin-top: 0;
+    margin: 0;
 }
 
-#link-icons li {
+#link-list li {
     margin-top: 1em;
-    margin-left: 2em;
+    white-space: nowrap;
 }
 
-#link-icons li:first-child {
+#link-list li:first-child {
     margin-top: 0;
 }
 
-#link-icons .fa, .ai {
+#link-list .fa, .ai {
     transform: translateY(14%);
     display: inline-block;
     margin-right: 0.2em;
-}
-
-#link-icons li:first-child .fa {
-    margin-left: 0;
 }
