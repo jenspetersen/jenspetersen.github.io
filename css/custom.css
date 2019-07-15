@@ -1,5 +1,5 @@
 body {
-    background-color: #fbfbf8;
+    background-color: #fef8ed;
     color: #444;
     font-size: 100%;
     font-family: "EB Garamond", serif;
@@ -65,4 +65,53 @@ a:active {
 
 #link-list li a {
     text-decoration: none;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 550px;
+}
+
+.list-unstyled {
+    padding: 1em;
+}
+
+.authors {
+    font-weight: 200;
+}
+
+.venue {
+    width: 150px;
+}
+
+li.media {
+    margin-bottom: 1em;
+}
+
+li.media span:first-child {
+    font-weight: 200;
+}
+
+.content a:link, a:visited {
+    color: #444;
+    text-decoration: none;
+    font-family: "Oswald";
+}
+
+.content a:hover {
+    color: #222;
+    text-decoration: none;
+    font-family: "Oswald";
+}
+
+.content a:active {
+    color: #444;
+    text-decoration: none;
+    font-family: "Oswald";
+}
+
+.content h5 {
+    color: #444;
+    text-decoration: none;
+    font-family: "Oswald";
 }
